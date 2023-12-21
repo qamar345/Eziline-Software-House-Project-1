@@ -1,0 +1,135 @@
+.bar {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.duration {
+    margin-left: 5px;
+}
+
+.views {
+    margin-left: 75px;
+}
+
+
+.rating-2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.price {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .views {
+        margin-left: 150px;
+    }
+
+    .price {
+        margin-left: 100px;
+    }
+
+}
+
+.actual-price {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.discount {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: line-through;
+}
+
+.preview {
+    display: none;
+}
+
+.h-section-5-card-2 {
+    animation-duration: 1s;
+    transform-origin: bottom;
+}
+
+.h-section-5-card-2:hover {
+    animation-name: swipe;
+
+    .preview {
+        display: block;
+    }
+}
+
+@keyframes swipe {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: blue;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #227AFF1A;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pagination a.active {
+    background-color: #227AFF;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.number {
+    margin-left: 5px;
+}
+
+.number-1 {
+    margin-right: 5px;
+}
+
+.section-5-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.course-category {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}

@@ -1,0 +1,64 @@
+.card-style {
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.section-4-heading {
+    font-weight: 400;
+    font-size: 36px;
+    font-weight: 46px;
+}
+
+.section-4-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.card-title-4{
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 26px;
+}
+
+
+.card-hover {
+    animation-duration: 1s;
+    transform-origin: bottom;
+}
+
+@media screen and (max-width: 600px) {
+    .card-hover{
+        width: 165px;
+    }
+    .card-align{
+        padding-left: 30px;
+    }
+    .card-title-4{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
+
+.card-hover:hover {
+    animation-name: bounce;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.card-circle {
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}

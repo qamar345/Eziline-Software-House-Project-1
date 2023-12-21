@@ -1,0 +1,90 @@
+.h-section-6 {
+    background-color: #eff4fa;
+}
+
+.options {
+    width: 300px;
+    height: 40px;
+}
+
+.option-value {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.end {
+    text-align: end;
+}
+
+@media screen and (max-width: 600px) {
+    .end {
+        text-align: center;
+    }
+
+    .start {
+        text-align: center;
+    }
+}
+
+.card-style {
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.log-ico {
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 600px) {
+    .log-ico{
+        margin-left: 45px;
+    }
+}
+
+.preview-course {
+    text-align: center;
+    margin: 10px;
+}
+
+.section-6-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.modal-heading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.modal-meta {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.other-spec {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.btn-spec {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    background-color: #356AC6;
+    color: white;
+}
+
+.load-more{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    height: 50px;
+    width: 200px;
+}

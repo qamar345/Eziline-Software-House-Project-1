@@ -1,0 +1,26 @@
+.h-section-7-a {
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+.h-section-7-b {
+    margin-top: 150px;
+}
+
+.side-heading {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 57px;
+}
+
+.side-meta {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .h-section-7-a {
+        display: none;
+    }
+}

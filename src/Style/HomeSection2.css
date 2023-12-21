@@ -1,0 +1,49 @@
+.section-2-desc{
+    padding-left: 50px;
+}
+
+.award-img{
+    width: 350.64px;
+    height: 450.25px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+@media screen and (max-width: 600px) {
+    .award-img{
+        width: 305.64px;
+        height: 450.25px;
+    }
+    .section-heading{
+        margin-top: -300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-2-desc {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+}
+
+
+
+.section-2-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #273044;
+}
+
+/* #356ac6 */
+
+.profile-btn{
+    background-color: #356ac6;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}

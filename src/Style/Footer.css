@@ -1,0 +1,61 @@
+.footer-bg{
+    background-color: #042d89;
+    color: white;
+    padding-top: 200px;
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.f-section-1{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.section-meta{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.course-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.provide-by{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #aaaaaa;
+}
+
+.footer-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}

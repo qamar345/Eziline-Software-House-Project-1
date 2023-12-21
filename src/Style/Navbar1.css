@@ -1,0 +1,43 @@
+/* body{
+    background-color: aqua;
+} */
+
+.top-header {
+    background-color: #3275db;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.section-1 {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.section-3 {
+    width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .top-header {
+        display:none;
+    }
+
+    /* .section-1 {
+        width: 0;
+        margin-left: 0;
+    }
+
+    .section-3 {
+        width: 0;
+    } */
+}
+
+
+
+.nav-link {
+    margin-left: 25px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}

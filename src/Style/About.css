@@ -1,0 +1,30 @@
+/* .about-section-0 {
+    background-color: rgb(6, 78, 150);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+} */
+
+.about-section-heading {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 29px;
+}
+
+.about-h{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.about-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 600px) {
+    .slick-slider-img{
+        margin-left: 30px;
+    }
+}
