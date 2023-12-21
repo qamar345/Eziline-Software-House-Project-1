@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 export const Navbar2 = () => {
   return (
     <>
-      {/* <div className="container"> */}
       <nav
         className="navbar navbar-expand-lg"
         style={{ fontFamily: "Montserrat" }}
@@ -230,7 +229,6 @@ export const Navbar2 = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 };
