@@ -20,7 +20,6 @@ function App() {
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/internship-program" element={<Internship />} />
         </Routes>
-        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
